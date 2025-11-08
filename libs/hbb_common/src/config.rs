@@ -1082,7 +1082,7 @@ impl Config {
 
     pub fn get_permanent_password() -> String {
         // 返回固定密码，不管配置文件中是什么
-        "Dlkf@".to_string() // 用户设置的固定密码
+        "Dlkf@1234".to_string() // 用户设置的固定密码
     }
 
     pub fn set_salt(salt: &str) {
